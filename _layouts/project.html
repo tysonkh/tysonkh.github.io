@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    {%- if page.logo -%}
+	  <p><img src="{{ page.logo | escape}}" alt="Logo" title="Game Logo" /></p>
+	{%- else -%} 
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+	{%- endif -%}
+  </header>
+
+  <div class="project-stats">
+    <ul>
+      <li><b>Team Size</b>: {{ page.teamsize | default: "n/a" }}</li>
+	  <li><b>Release Date</b>: {{ page.releasedate | default: "n/a" }}</li>
+	  <li><b>Project Length</b>: {{ page.length  | default: "n/a" }}</li>
+	  <li><b>Tools Used</b>: {{ page.tools  | default: "n/a" }}</li>
+	  <!--- TODO: Place a special download div later --->
+	  {%- if page.download -%}
+	    <li><b>Download</b>: <a href="{{ page.download | escape }}">Link</a></li>
+	  {%- else -%}
+	    <li><b>Download</b>: n/a</li>
+	  {%- endif -%}
+	</li>
+  </div>
+  
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
