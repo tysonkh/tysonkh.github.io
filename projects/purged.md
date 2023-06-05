@@ -8,8 +8,13 @@ permalink: /projects/purged
 - **Unreal Engine 4** (4.26.2) - **C++ and Unreal Blueprint**
 - Project Length: **1 Year** (May 2022 - May 2023)
 
-Explore an abandoned base, now occupied by crazed fanatics attempting to protect something dangerous below the surface. Based on Old-School shooters, find the exit while defeating enemies, finding secret caches, and collecting tresure along the way.
+Explore an abandoned base, now occupied by crazed fanatics attempting to protect something dangerous below the surface. Based on Old-School shooters, find the exit while defeating enemies, finding secret caches, and collecting treasure along the way.
 
+
+[Gameplay Footage](https://youtu.be/XZTKOEdhpJo)
+<iframe width="560" height="315"
+	src="https://www.youtube.com/embed/XZTKOEdhpJo">
+</iframe>
 
 Programming
 -----
