@@ -8,21 +8,21 @@ permalink: /projects
 
 This page serves as an overview of all the games I worked on. Some games will have project pages, detailing more about the game or about the contribution.
 
-> The projects are sorted by newest projects at the top. Game Jam games are separated from the list and listed at the bottom of the page.
+> All projects are sorted from newest to oldest.
+ 
+> [Game Jam Games](/projects#game-jam-games) are listed separately.
 
 ---
 
-PURGED (2022)
+PURGED (2023)
 =====
-Wolfenstein 3D clone game with similar gameplay and level design, but with unique visuals. Running on Unreal Engine 4.  
-  
-  This was a solo project.
+A first-person shooter inspired by old-school games. Defeat enemies while finding secret caches and collecting treasures.
   
 > For more details, please view the [project page](/projects/purged)
 
 <p>
-  <img src="/assets/purged/screenshot1.png" alt="screenshot1" width="49%"/>
-  <img src="/assets/purged/screenshot5.png" alt="screenshot2" width="49%"/>
+  <img src="/assets/purged/screenshot7.png" alt="screenshot2-2023" width="49%"/>
+  <img src="/assets/purged/screenshot9.png" alt="screenshot4-2023" width="49%"/>
 </p>
 
 ---
@@ -95,7 +95,7 @@ Real-time RPG set in a high school where teachers plan to brainwash the students
 
 ---
 
-Game Jam Games
+Game Jam Games {#game-jam-games}
 -----
 Games completed within a small time-frame, as part of a Game Jam event.
 

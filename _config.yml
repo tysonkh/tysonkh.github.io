@@ -21,7 +21,7 @@
 title: gardenfodder
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Website that documents all creative projects (all video games, really).
+  My personal website, showcasing all my past creative projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -34,8 +34,8 @@ theme: minima
 plugins:
   - jekyll-feed
 header_pages:
-  - about.md
   - projects.md
+  - about.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

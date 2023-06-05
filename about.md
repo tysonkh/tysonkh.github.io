@@ -4,7 +4,7 @@ title: Credits
 permalink: /credits/
 ---
 
-Site created with jekyll, with the minima theme.
+This site is created with jekyll and the minima theme.
 - You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)
