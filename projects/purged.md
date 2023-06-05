@@ -1,37 +1,47 @@
 ---
-layout: project
 categories: game
 title: "PURGED"
 permalink: /projects/purged
-
-teamsize: "1"
-length: "4 months"
-tools: "Unreal Engine 4"
 ---
-Programming, Art, Animation, Shooter
 
-CONTRIBUTION
+- **Solo Project**
+- **Unreal Engine 4** (4.26.2) - **C++ and Unreal Blueprint**
+- Project Length: **1 Year** (May 2022 - May 2023)
+
+Explore an abandoned base, now occupied by crazed fanatics attempting to protect something dangerous below the surface. Based on Old-School shooters, find the exit while defeating enemies, finding secret caches, and collecting tresure along the way.
+
+
+Programming
 -----
-Learned numerous Unreal Engine features to practice using the engine. 
+- The Player class manages player input, moving around the level, and interacting with objects. A Player has an Inventory structure that stores and manages all the player’s items.
+- All Weapon stats are stored and referenced from a Data Table. Each weapon’s stats can be modified including damage, accuracy, fire rate, and the bullets fired per shot.
+- The Enemy class uses Behaviour Trees to manage logic regarding patrolling, chasing, and attacking targets. Data Assets store enemy stats and can be modified to create unique enemy types.
+- Multiple Data classes help keep track of enemies killed, secrets found, and treasures collected.
+- The Player HUD and all game menus are programmed using Widgets. The game’s settings menu utilizes Widget Templates for its buttons.
+- A Basic Save system stores custom settings and the Player’s Inventory between levels. Progress since the last completed level can be loaded between game sessions.
 
-Visuals include modifying materials retrieved from internet sources to create textures, or creating 2D sprites for enemies and the environment.
-
-ABOUT
+Art/Animation
 -----
-For the summer, I wanted to try using Unreal Engine. The main goal was to create a prototype for a game to practice with the various features and workflows involved with the engine. The game concept was attempting to recreate Wolfenstein 3D, with the first level, enemies, and weapons. However, I modified the original idea to include a completely different visual style to practice more with using textures and visuals in the Unreal Engine. I also tried creating custom SFX with a microphone.
+- Created all sprites for enemies, items, icons, and some textures.
+- All enemies and weapons were animated by hand or using Unreal Engine’s Timeline.
+- Textures from online sources were modified to be used in the game’s world.
 
-For the purpose of learning Unreal, I decided to use Blueprint so I can both get aquainted with the engine's functions, while being able to prototype features faster. I was able to modify the existing Character Controller to suit the needs of the project, while also adding additional features such as a weapon system that would change its values based on the weapon equipped. I also tried to create AI using the Behaviour Tree and Blackboard, allowing enemies to patrol, chase targets, open doors, and attack the player. As part of following the old-school design, I tracked some statistics to show after a player beats the level, this includes the enemies defeated, the amount of treasure found, and the secrets discovered.
+Other
+-----
+- Programming was first created with Blueprint for fast prototyping and iteration, then recreated with C++. Afterwards, a mixture of Blueprint and C++ is used depending on the task.
+- Source Control (using GitHub) is used to both manage progress and to revert changes.
+- Sound Effects are recorded by myself or taken from online sources. The effects are created or modified using Audacity.
 
-For the visuals, I used Paint.NET to create concepts and 2D environment sprites, as well as modify textures when needed. For any enemies, I used Aseprite to animate them. I also practiced using a microphone and Audacity to try creating custom SFX.
-
+Screenshots
+-----
 <p>
-  <img src="/assets/purged/screenshot1.png" alt="screenshot1" width="49%"/>
-  <img src="/assets/purged/screenshot2.png" alt="screenshot2" width="49%"/>
+  <img src="/assets/purged/screenshot6.png" alt="screenshot1-2023" width="49%"/>
+  <img src="/assets/purged/screenshot7.png" alt="screenshot2-2023" width="49%"/>
 </p>
 
 <p>
-  <img src="/assets/purged/screenshot3.png" alt="screenshot3" width="49%"/>
-  <img src="/assets/purged/screenshot4.png" alt="screenshot4" width="49%"/>
+  <img src="/assets/purged/screenshot8.png" alt="screenshot3-2023" width="49%"/>
+  <img src="/assets/purged/screenshot10.png" alt="screenshot-20234" width="49%"/>
 </p>
 
-![screenshot5](/assets/purged/screenshot5.png)
+![screenshot5](/assets/purged/screenshot9.png)
