@@ -10,7 +10,19 @@ This page serves as an overview of all the games I worked on. Some games will ha
 
 > All projects are sorted from newest to oldest.
  
-> [Game Jam Games](/projects#game-jam-games) are listed separately.
+> [Game Jam Games](#game-jam-games) are listed separately.
+
+---
+
+Knight's Meadow: The Solemn Village (2024)
+=====
+An adventure game inspired by King's Field.
+  
+> For more details, please view the [project page](/projects/knights-meadow)
+
+<p>
+  <img src="/assets/knights-meadow/coverimage.png" alt="knightsmeadow-coverimage" width="49%"/>
+</p>
 
 ---
 
@@ -100,6 +112,18 @@ Game Jam Games {#game-jam-games}
 Games completed within a small time-frame, as part of a Game Jam event.
 
 > The games are sorted by the newest ones first.
+
+Robo Wick Cleaner (2023)
+=====
+Killing robots is a tough job... but what about the cleaning afterwards?
+  
+  Worked on art, some programming (UI), and some levels.
+  
+> Play the game <a href="https://theburnerguy.itch.io/robo-wick-cleaner" target="_blank">here</a>
+
+<p>
+  <img src="/assets/rwc-cover.png" alt="rwc-cover" width="49%"/>
+</p>
 
 Yomi no Kuni: World of Darkness (2022)
 =====
