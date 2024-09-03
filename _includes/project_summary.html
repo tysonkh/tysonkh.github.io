@@ -1,0 +1,29 @@
+<!--- Include image_path, project_path, project_title, brief_detail, and description --->
+
+<div>
+	<div>
+		<h1>
+		{% if include.project_path == "" %}
+			{{ include.project_title }} ({{ include.project_year | default: "n/a" }})
+		{% else %}
+			<a href="{{ include.project_path}}" target="_blank">{{ include.project_title }}</a> 
+			({{ include.project_year | default: "n/a" }}) 
+		{% endif %}
+		</h1>
+	</div>
+	
+	<div>
+		{% unless include.image_path == "" %}
+			<img align="left" src="{{ include.image_path }}" alt="screenshot" width="38%" style="margin-right: 16px"/>
+		{% endunless %}
+	</div>
+	
+	<div>
+		{{ include.brief_detail }} <a href="{{ include.download_link }}" target="_blank">{{ include.download_title }}</a>
+		<br/> <br/>	<!--- Adds a space between the two texts --->
+		{{ include.description | markdownify }}
+	</div>
+	
+</div>
+
+<br clear="left"/>

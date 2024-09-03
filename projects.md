@@ -2,177 +2,202 @@
 layout: page
 title: Projects
 permalink: /projects
+
+project_template: project_summary.html
 ---
 
-<!--- use target="_blank" to open links to new tabs/windows --->
+<!--- 
+In the future, this page will use a grid layout to show more games at once.
+
+Tips:
+- use target="_blank" to open links to new tabs/windows 
+--->
 
 This page serves as an overview of all the games I worked on. Some games will have project pages, detailing more about the game or about the contribution.
 
 > All projects are sorted from newest to oldest.
- 
-> [Game Jam Games](/projects#game-jam-games) are listed separately.
+> [Game Jam Games](#game-jam-games) are listed separately.
 
 ---
 
-PURGED (2023)
-=====
-A first-person shooter inspired by old-school games. Defeat enemies while finding secret caches and collecting treasures.
-  
-> For more details, please view the [project page](/projects/purged)
-
-<p>
-  <img src="/assets/purged/screenshot7.png" alt="screenshot2-2023" width="49%"/>
-  <img src="/assets/purged/screenshot9.png" alt="screenshot4-2023" width="49%"/>
-</p>
-
----
-
-Daemon Killer (2021)
-=====
-Daemon Killer is an action horror game, but during combat players have to pause the game and plan their attacks against enemies.
-  
-  Worked on programming and level design.
-  
-> For more details, please view the [project page](/projects/daemon-killer)
-
-<p>
-  <img src="/assets/daemonkiller/screenshot2.png" alt="screenshot1" width="49%"/>
-</p>
+{% include {{ page.project_template }}
+image_path="/assets/purged/screenshot11.png" 
+project_path="/projects/purged"
+project_title="PURGED"
+project_year="2024"
+brief_detail="Solo Project // Unreal Engine // "
+download_link="https://noonereadsthis.itch.io/purged"
+download_title="itch.io"
+description="A first-person shooter inspired by old-school games. Defeat enemies while finding secret caches and collecting treasures." 
+%}
 
 ---
 
-Project Beatdown (2020)
-=====
-A remake of High School Hero using a new combat system, and updated visuals.
-  
-  This was a solo project.
-  
-> For more details, please view the [project page](/projects/beatdown-and-recursed)
-
-<p>
-  <img src="/assets/beatdown/screenshot2.png" alt="screenshot1" width="49%"/>
-  <img src="/assets/beatdown/screenshot5.png" alt="screenshot2" width="49%"/>
-</p>
+{% include {{ page.project_template }}
+image_path="/assets/knights-meadow/kffp-screenshot1.png" 
+project_path="/projects/knights-meadow"
+project_title="Knight's Meadow: The Solemn Village"
+project_year="2024"
+brief_detail="Solo Project // Unreal Engine // "
+download_link="https://noonereadsthis.itch.io/knights-meadow"
+download_title="itch.io"
+description="Explore to collect loot and weapons. Use those weapons to become stronger against the monsters that roam the land. Venture into the Dungeon to defeat the rampaging beast that has made it its home." 
+%}
 
 ---
 
-Project Liskov (2020)
-=====
-Up to 4 wizards must defeat enemies by using their hands to physically combine cards together to create attacks in this multiplayer card game.
-  
-  Worked on art and some programming (UI).
-
----
-  
-Twin Curse (2015)
-=====
-After the kingdom unleashes a demonic horde on the lands, a hero must use their imbued curse to eradicate the invasion in this difficult platforming action game.
-  
-  Worked on all game art.
-  
-> For more details, please view the [project page](/projects/twin-curse)
-
-NOTE: Screenshots are for an updated ReCurse version, but the visuals are identical from the original project.
-<p>
-  <img src="/assets/twincurserecurse/screenshot3.png" alt="screenshot1" width="49%"/>
-  <img src="/assets/twincurserecurse/screenshot5.png" alt="screenshot2" width="49%"/>
-</p>
+{% include {{ page.project_template }}
+image_path="/assets/daemonkiller/screenshot3.png" 
+project_path="/projects/daemon-killer"
+project_title="Daemon Killer"
+project_year="2021"
+brief_detail="Programming, Level Design // Unity"
+download_link=""
+download_title=""
+description="Your objective is to investigate a recently-opened entrance to the demon world in an abandoned district of the city. Fight back against enemies by stopping time to imbue your bullets with magic and fire multiple shots instantly." 
+%}
 
 ---
 
-High School Hero (2014)
-=====
-Real-time RPG set in a high school where teachers plan to brainwash the students to do homework all summer long. Uses a combat system that involves players aiming their attacks to specific targets.
-  
-  Worked on all game art.
-  
-> For more details, please view the [project page](/projects/high-school-hero)
+{% include {{ page.project_template }}
+image_path="/assets/beatdown/screenshot2.png" 
+project_path="/projects/beatdown-and-recursed"
+project_title="Project Beatdown"
+project_year="2020"
+brief_detail="Solo Project // GameMaker"
+download_link=""
+download_title=""
+description="This is a remake of the original High School Hero that includes updated game sprites and a new combat system adopting a more traditional turn-based RPG system but abilities are done through minigames. The better the outcome of the minigame, the more effective your ability becomes."
+%}
 
-<p>
-  <img src="/assets/highschoolhero/screenshot1.png" alt="screenshot1" width="49%"/>
-  <img src="/assets/highschoolhero/screenshot2.png" alt="screenshot2" width="49%"/>
-</p>
+---
+
+{% include {{ page.project_template }}
+project_path=""
+image_path=""
+project_title="Project Liskov"
+project_year="2020"
+brief_detail="Programming, Art // Unity"
+description="Play as one of four wizards to defeat an endless onslaught of monsters by physically selecting cards together to create attacks in this multiplayer card game played on a giant touchpad."
+%}
+
+---
+
+{% include {{ page.project_template }}
+project_path="/projects/twin-curse"
+image_path="/assets/twincurserecurse/screenshot3.png"
+project_title="Twin Curse"
+project_year="2015"
+brief_detail="Art // GameMaker"
+description="After the kingdom unleashes a demonic horde on the lands, a hero must use their imbued curse to eradicate the invasion in this difficult platforming action game."
+%}
+
+---
+
+{% include {{ page.project_template }}
+project_path="/projects/high-school-hero"
+image_path="/assets/highschoolhero/screenshot2.png"
+project_title="High School Hero"
+project_year="2014"
+brief_detail="Art // GameMaker"
+description="Real-time RPG set in a high school where teachers plan to brainwash the students to do homework all summer long. Uses a combat system that involves players aiming their attacks to specific targets."
+%}
 
 ---
 
 Game Jam Games {#game-jam-games}
 -----
-Games completed within a small time-frame, as part of a Game Jam event.
+Created during a Game Jam
 
 > The games are sorted by the newest ones first.
 
-Yomi no Kuni: World of Darkness (2022)
-=====
-Find the way out, collecting items to become stronger. Death isn't the end, however! Get a second chance at life by defeating enemies you've killed previously.
-  
-  Worked on some programming (item pickups and inventory).
-  
-> Download the game <a href="https://globalgamejam.org/2022/games/world-darkness-yomi-no-kuni-6" target="_blank">here</a>
+---
 
-> For more details, please view the [project page](/projects/world-darkness-yomi-no-kuni)
+{% include {{ page.project_template }}
+project_path=""
+image_path="/assets/rwc-cover.png"
+project_title="Robo Wick Cleaner"
+project_year="2023"
+brief_detail="Programming, Art, Levels // Unity //"
+download_link="https://theburnerguy.itch.io/robo-wick-cleaner"
+download_title="itch.io"
+description="Killing robots is a tough job... but what about the cleaning afterwards?"
+%}
 
-<p>
-  <img src="/assets/yominokuni/screenshot2.png" alt="screenshot1" width="49%"/>
-  <img src="/assets/yominokuni/screenshot3.png" alt="screenshot2" width="49%"/>
-</p>
+---
 
-Angel Fire (2021)
-=====
-A bullet-hell shooter for the Game Maker’s Toolkit Jam. Players can pick up scrap by destroying enemies as they go through the level. Accumulated scrap would create a barrier that would protect players from attacks, but by consuming some of the scrap they could unleash a large attack that would destroy multiple enemies at once.
-  
-  Worked on art, some programming (UI), and the level.
-  
-> Play the game <a href="https://theburnerguy.itch.io/angelfire" target="_blank">here</a>
+{% include {{ page.project_template }}
+project_path="/projects/world-darkness-yomi-no-kuni"
+image_path="/assets/yominokuni/screenshot3.png"
+project_title="Yomi no Kuni: World of Darkness"
+project_year="2022"
+brief_detail="UI Programming // Unity //"
+download_link="https://globalgamejam.org/2022/games/world-darkness-yomi-no-kuni-6"
+download_title="Global Game Jam"
+description="You play as a young esper where you kill demons that have possessed people in a mansion. However, once you die, you'll have to exorcise all the demons you killed previously in the living world if you want the chance to revive yourself. A top-down rogue-lite shooter with randomly generated levels, upgrades, and a life/death mechanic."
+%}
 
-<p>
-  <img src="/assets/angelfscreenshot.png" alt="angelfire screenshot" width="49%"/>
-</p>
+---
 
-Project_1 (2020)
-=====
-A robot, fuelled by blood, must find all the pieces of a statue spewing blood in the desert. The desert is a vast wasteland, but the robot can activate a sonar-like device to help find the pieces they need as well as finding landmarks to familiarize themselves with the world.
-  
-  Worked on some animation (all robot character animations).
-  
-> Download the game <a href="https://globalgamejam.org/2020/games/project1-5" target="_blank">here</a>
+{% include {{ page.project_template }}
+project_path=""
+image_path="/assets/angelfscreenshot.png"
+project_title="Angel Fire"
+project_year="2021"
+brief_detail="UI Programming, Art, Level // Unity //"
+download_link="https://theburnerguy.itch.io/angelfire"
+download_title="itch.io"
+description="Combat Unit Sagiri is flying to school with toast in her mouth when she is ambushed by some evil monsters that want to destroy her town. Scrap from enemies can be used as a shield or consumed to create a devastating shot. Balance the use of scrap to maximize damage and survivability."
+%}
 
-<p>
-  <img src="/assets/proj1screenshot.png" alt="screenshot1" title="Riveting gameplay." width="49%"/>
-</p>
+---
 
-Darkness that Festers (2019)
-=====
-As the only one left, survive against the parasitic horde by keeping your burner alive. The player must scavenge resources to fuel their burner to make it brighter, making it easier to find more buildings to loot. These resources can also be used to modify the gun to improve its ability to fight off the horde.
-  
-  This was a solo project.
-  
-> Download the game <a href="https://noonereadsthis.itch.io/darkness-that-festers" target="_blank">here</a>
+{% include {{ page.project_template }}
+project_path	= ""
+image_path		= "/assets/proj1screenshot.png"
+project_title	= "Project_1"
+project_year	= "2020"
+brief_detail	= "Animation // GameMaker //"
+download_link	= "https://globalgamejam.org/2020/games/project1-5"
+download_title	= "Global Game Jam"
+description		= "A lone robot, along with a mysterious rabbit-like creature, traverses a desert land in search of one of the last remaining structures of an old god."
+%}
 
-<p>
-  <img src="/assets/darknessthatfesters/screenshot2.png" alt="screenshot1" width="49%"/>
-</p>
+---
 
-Magnus Force (2018)
-=====
-Infiltrate a military complex as an android capable of reprogramming stealth balls.
-  
-  Worked on art (character sprites, UI icons) and animation.
-  
-> Download the game <a href="https://theburnerguy.itch.io/project-magnus-force" target="_blank">here</a>
+{% include {{ page.project_template }}
+project_path	= ""
+image_path		= "/assets/darknessthatfesters/screenshot2.png"
+project_title	= "Darkness that Festers"
+project_year	= "2019"
+brief_detail	= "Solo Project // GameMaker //"
+download_link	= "https://noonereadsthis.itch.io/darkness-that-festers"
+download_title	= "itch.io"
+description		= "As the only one left, survive against the parasitic horde by keeping your burner alive. The player must scavenge resources to fuel their burner to make it brighter, making it easier to find more buildings to loot. These resources can also be used to modify the gun to improve its ability to fight off the horde."
+%}
 
-<p>
-  <img src="/assets/pmfscreenshot.png" alt="screenshot1" width="49%"/>
-</p>
+---
 
-RUNNO ZOMBO (2017)
-=====
-A survivor must run as far as they can while they shoot zombos, loot buildings, and score high.
-  
-  Worked on all game art, worked on programming for future versions.
-  
-> Download the game <a href="https://noonereadsthis.itch.io/runno-zombo" target="_blank">here</a>
+{% include {{ page.project_template }}
+project_path	= ""
+image_path		= "/assets/pmfscreenshot.png"
+project_title	= "Magnus Force"
+project_year	= "2018"
+brief_detail	= "Art, Animation // GameMaker //"
+download_link	= "https://theburnerguy.itch.io/project-magnus-force"
+download_title	= "itch.io"
+description		= "Infiltrate a military complex as an android capable of reprogramming stealth balls."
+%}
 
-<p>
-  <img src="/assets/runnozombo/screenshot2_v1.png" alt="screenshot1" width="49%"/>
-  <img src="/assets/runnozombo/screenshot4_v1.png" alt="screenshot2" width="49%"/>
-</p>
+---
+
+{% include {{ page.project_template }}
+project_path	= ""
+image_path		= "/assets/runnozombo/screenshot2_v1.png"
+project_title	= "RUNNO ZOMBO"
+project_year	= "2017"
+brief_detail	= "Art, Programming // GameMaker //"
+download_link	= "https://noonereadsthis.itch.io/runno-zombo"
+download_title	= "itch.io"
+description		= "A survivor must run as far as they can while they shoot zombos, loot buildings, and score high."
+%}
