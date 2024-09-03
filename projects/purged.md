@@ -6,15 +6,9 @@ permalink: /projects/purged
 
 - **Solo Project**
 - **Unreal Engine 4** (4.26.2) - **C++ and Unreal Blueprint**
-- Project Length: **1 Year** (May 2022 - May 2023)
+- Project Length: **2 Years** (May 2022 - June 2024)
 
 Explore an abandoned base, now occupied by crazed fanatics attempting to protect something dangerous below the surface. Based on Old-School shooters, find the exit while defeating enemies, finding secret caches, and collecting treasure along the way.
-
-
-[Gameplay Footage](https://youtu.be/XZTKOEdhpJo)
-<iframe width="560" height="315"
-	src="https://www.youtube.com/embed/XZTKOEdhpJo">
-</iframe>
 
 Programming
 -----
@@ -40,13 +34,51 @@ Other
 Screenshots
 -----
 <p>
-  <img src="/assets/purged/screenshot6.png" alt="screenshot1-2023" width="49%"/>
-  <img src="/assets/purged/screenshot7.png" alt="screenshot2-2023" width="49%"/>
+  <img src="/assets/purged/coverart_v1.png" alt="screenshot1-2024" width="49%"/>
+  <img src="/assets/purged/screenshot1.png" alt="screenshot2-2024" width="49%"/>
 </p>
 
 <p>
-  <img src="/assets/purged/screenshot8.png" alt="screenshot3-2023" width="49%"/>
-  <img src="/assets/purged/screenshot10.png" alt="screenshot-20234" width="49%"/>
+  <img src="/assets/purged/screenshot2.png" alt="screenshot3-2024" width="49%"/>
+  <img src="/assets/purged/screenshot3.png" alt="screenshot-2024" width="49%"/>
 </p>
 
-![screenshot5](/assets/purged/screenshot9.png)
+Older Versions
+-----
+PURGED has gone through numerous iterations as I learn more and more about Unreal Engine and the kind of game I wanted PURGED to be. I've included the old content below for completeness.
+
+**Version 2022**
+<p>
+  <img src="/assets/purged/ver1_screenshot1.png" alt="screenshot1-2022" width="49%"/>
+  <img src="/assets/purged/ver1_screenshot2.png" alt="screenshot2-2022" width="49%"/>
+</p>
+
+<p>
+  <img src="/assets/purged/ver1_screenshot3.png" alt="screenshot3-2022" width="49%"/>
+  <img src="/assets/purged/ver1_screenshot4.png" alt="screenshot4-2022" width="49%"/>
+</p>
+
+<p>
+  <img src="/assets/purged/ver1_screenshot5.png" alt="screenshot5-2022" width="49%"/>
+</p>
+
+**Version 2023**
+
+[Gameplay Footage](https://youtu.be/XZTKOEdhpJo)
+<iframe width="560" height="315"
+	src="https://www.youtube.com/embed/XZTKOEdhpJo">
+</iframe>
+
+<p>
+  <img src="/assets/purged/ver2_screenshot1.png" alt="screenshot1-2023" width="49%"/>
+  <img src="/assets/purged/ver2_screenshot2.png" alt="screenshot2-2023" width="49%"/>
+</p>
+
+<p>
+  <img src="/assets/purged/ver2_screenshot3.png" alt="screenshot3-2023" width="49%"/>
+  <img src="/assets/purged/ver2_screenshot4.png" alt="screenshot4-2023" width="49%"/>
+</p>
+
+<p>
+  <img src="/assets/purged/ver2_screenshot5.png" alt="screenshot5-2023" width="49%"/>
+</p>

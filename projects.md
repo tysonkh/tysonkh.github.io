@@ -21,7 +21,7 @@ This page serves as an overview of all the games I worked on. Some games will ha
 ---
 
 {% include {{ page.project_template }}
-image_path		= "/assets/purged/screenshot11.png" 
+image_path		= "/assets/purged/screenshot1.png" 
 project_path	= "/projects/purged"
 project_title	= "PURGED"
 project_year	= "2024"
