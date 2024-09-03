@@ -78,32 +78,12 @@ image_path		= ""
 project_title	= "Project Liskov"
 project_year	= "2020"
 brief_detail	= "Programming, Art // Unity"
-description		= "Play as one of four wizards to defeat an endless onslaught of monsters by physically selecting cards together to create attacks in this multiplayer card game played on a giant touchpad."
+description		= "Play as one of four wizards to defeat an endless onslaught of monsters by physically selecting cards together to create attacks in this multiplayer card game played on a giant touchscreen."
 %}
 
 ---
 
-{% include {{ page.project_template }}
-project_path	= "/projects/twin-curse"
-image_path		= "/assets/twincurserecurse/screenshot3.png"
-project_title	= "Twin Curse"
-project_year	= "2015"
-brief_detail	= "Art // GameMaker"
-description		= "After the kingdom unleashes a demonic horde on the lands, a hero must use their imbued curse to eradicate the invasion in this difficult platforming action game."
-%}
-
----
-
-{% include {{ page.project_template }}
-project_path	= "/projects/high-school-hero"
-image_path		= "/assets/highschoolhero/screenshot2.png"
-project_title	= "High School Hero"
-project_year	= "2014"
-brief_detail	= "Art // GameMaker"
-description		= "Real-time RPG set in a high school where teachers plan to brainwash the students to do homework all summer long. Uses a combat system that involves players aiming their attacks to specific targets."
-%}
-
----
+<br><br><br><br><br>
 
 Game Jam Games {#game-jam-games}
 -----
@@ -227,3 +207,27 @@ download_link	= "https://noonereadsthis.itch.io/runno-zombo"
 download_title	= "itch.io"
 description		= "A survivor must run as far as they can while they shoot zombos, loot buildings, and score high."
 %}
+
+---
+
+{% include {{ page.project_template }}
+project_path	= "/projects/twin-curse"
+image_path		= "/assets/twincurserecurse/screenshot3.png"
+project_title	= "Twin Curse"
+project_year	= "2015"
+brief_detail	= "Art // GameMaker"
+description		= "After the kingdom unleashes a demonic horde on the lands, a hero must use their imbued curse to eradicate the invasion in this difficult platforming action game."
+%}
+
+---
+
+{% include {{ page.project_template }}
+project_path	= "/projects/high-school-hero"
+image_path		= "/assets/highschoolhero/screenshot2.png"
+project_title	= "High School Hero"
+project_year	= "2014"
+brief_detail	= "Art // GameMaker"
+description		= "Real-time RPG set in a high school where teachers plan to brainwash the students to do homework all summer long. Uses a combat system that involves players aiming their attacks to specific targets."
+%}
+
+---
